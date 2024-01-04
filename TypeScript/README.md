@@ -40,10 +40,10 @@ $ npm install webpack webpack-cli typescript ts-loader --save-dev
 ```
 
 Include the configuration files:
-* [package.json](./package.json)
-* [.eslintrc.js](./.eslintrc.js)
-* [tsconfig.json](./tsconfig.json)
-* [webpack.config.js](./webpack.config.js)
+* [package.json](./task_0/package.json)
+* [.eslintrc.js](./task_0/.eslintrc.js)
+* [tsconfig.json](./task_0/tsconfig.json)
+* [webpack.config.js](./task_0/webpack.config.js)
 
 Finally, run `npm install` from the terminal of your project folder to install all necessary project dependencies.
 
