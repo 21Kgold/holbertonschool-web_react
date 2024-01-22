@@ -70,6 +70,7 @@ File sizes after gzip:
 * Create a function named getFullYear that will return the current year and a function named getFooterCopy When true, should return Holberton School. When false, should return Holberton School main dashboard.
 * Modify the footer returned in task_1/dashboard/src/App.js to use these two functions
 * Create a notification component.
+* Check that you can see the two elements on the browser, and using the React browser extension
 
 <p align="center">
   <img src="./images/task_1_dashboards.png" alt="Image Description" width="60%"/>
@@ -77,7 +78,7 @@ File sizes after gzip:
 
 ### [2. Modify the App](./task_2/dashboard/src/App.js)
 * Add a label and input for email, a label and input for password and one button element with the text “OK”.
-* Create a function named getLatestNotification to populate the third <li> of the <ul>
+* Create a function named getLatestNotification to populate the third element of the unordered list.
 * Modify the notification component, style the list using the data attribute to make it look like the given screeshot.
 
 <p align="center">
@@ -103,14 +104,15 @@ Snapshots:   0 total
 Time:        47.416 s
 ```
 
-* Intall and  then configure Enzyme to use the adapter you’ve installed in your setup file.
+* Intall enzyme.
 ```
 /dashboard$ npm i --save-dev enzyme enzyme-adapter-react-16
 /dashboard$ npm i --save-dev enzyme-to-json
 ```
-* update your Jest configuration to automatically use enzyme-to-json serializer, by adding "snapshotSerializers": ["enzyme-to-json/serializer"] to your Jest configuration in your package.json.
+*  Configure the setup file to use the adapter you’ve installed for Enzyme.
+* Update your Jest configuration to automatically use enzyme-to-json serializer, by adding "snapshotSerializers": ["enzyme-to-json/serializer"] to your Jest configuration in your package.json.
 
-Shallow rendering is useful to constrain yourself to testing a component as a unit, and to ensure that your tests aren't indirectly asserting on behavior of child components.
+Shallow rendering (from Enzyme) is useful to constrain yourself to testing a component as a unit, and to ensure that your tests aren't indirectly asserting on behavior of child components.
 
 * Test that App renders without crashing
   - verify that App renders a div with the class App-header
@@ -132,13 +134,9 @@ Time:        59.207 s
 ```
 
 ### [7. Deploy to a GitHub page](https://21kgold.github.io/holbertonschool-web_react/)
-* Deploy your application to GitHub Pages using gh-pages branch and create-react-app.
+* Deploy your application to GitHub Pages using gh-pages branch and create-react-app. Don't forget to add the homepage property to your package.json file.
 ```
-/dashboard$ npm i --save-dev gh-pages
-```
-* Add a homepage property to your package.json file.
-
-```
+/task_4/dashboard$ npm i --save-dev gh-pages
 /task_4/dashboard$ npm run deploy
 
 > dashboard@0.1.0 predeploy  .../task_4/dashboard
