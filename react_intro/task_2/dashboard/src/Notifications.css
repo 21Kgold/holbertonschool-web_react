@@ -1,5 +1,5 @@
 .Notifications {
-    border: 2px solid #e0003c;
+    border: 2px dashed #e0003c;
     padding: 5px;
 }
 
@@ -9,4 +9,8 @@
 
 [data-priority='urgent'] {
     color: red;
+}
+
+.Notifications img {
+    background-color: transparent;
 }

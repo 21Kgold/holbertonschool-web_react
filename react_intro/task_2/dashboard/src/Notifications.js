@@ -9,14 +9,14 @@ function Notifications() {
     }
     return (
         <div className="Notifications">
-            <button style={{float: 'right'}} aria-label='Close' onClick={handleClick}>
-                <img src={icon} alt='icon' style={{width: '50%', height: '50%', backgroundColor: 'transparent', border: 'none'}}></img>
+            <button aria-label='Close' onClick={handleClick} style={{float: 'right', backgroundColor: 'transparent', border: 'none'}}>
+                <img src={icon} alt='icon' style={{backgroundColor: 'transparent', border: 'none'}}></img>
             </button>
             <p>Here is the list of notifications</p>
             <ul>
                 <li data-priority="default">New course available</li>
                 <li data-priority="urgent">New resume available</li>
-                <li dangerouslySetInnerHTML={{__html: getLatestNotification()}}></li>
+                <li data-priority="urgent" dangerouslySetInnerHTML={{__html: getLatestNotification()}}></li>
             </ul>
         </div>
     );

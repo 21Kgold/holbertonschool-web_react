@@ -67,21 +67,27 @@ File sizes after gzip:
 ```
 
 ### [1. Embedding expressions, functions](./task_1/dashboard/src/App.js)
-* C
+* Create a function named getFullYear that will return the current year and a function named getFooterCopy When true, should return Holberton School. When false, should return Holberton School main dashboard.
+* Modify the footer returned in task_1/dashboard/src/App.js to use these two functions
+* Create a notification component.
 
 <p align="center">
   <img src="./images/task_1_dashboards.png" alt="Image Description" width="60%"/>
 </p>
 
-<p align="center">
-  <img src="./images/task_2_dashboards.png" alt="Image Description" width="50%"/>
-</p>
+### [2. Modify the App](./task_2/dashboard/src/App.js)
+* Add a label and input for email, a label and input for password and one button element with the text “OK”.
+* Create a function named getLatestNotification to populate the third <li> of the <ul>
+* Modify the notification component, style the list using the data attribute to make it look like the given screeshot.
 
 <p align="center">
   <img src="./images/task_2_dashboards2.png" alt="Image Description" width="50%"/>
 </p>
 
+### [4. Create basic tests with Jest and then with Enzyme](./task_3/dashboard/src/utils.test.js)
 Jest is available by default when you create a new React application using Create React App. You’ll need to add react-test-renderer for rendering test. We can use it() or test() blocks to define tests in files with the .test.js suffix. We can run the tests using the npm test command. This will launch Jest in watch mode, meaning it will re-run your tests every time you save a file.
+
+* Create tests to check that the functions getFullYear, getFooterCopy and getLatestNotification work as expected.
 
 ```
 /dashboard$ npm test
@@ -97,15 +103,22 @@ Snapshots:   0 total
 Time:        47.416 s
 ```
 
+* Intall and  then configure Enzyme to use the adapter you’ve installed in your setup file.
 ```
 /dashboard$ npm i --save-dev enzyme enzyme-adapter-react-16
 /dashboard$ npm i --save-dev enzyme-to-json
 ```
-* Configure Enzyme to use the adapter you’ve installed in your setup file.
 * update your Jest configuration to automatically use enzyme-to-json serializer, by adding "snapshotSerializers": ["enzyme-to-json/serializer"] to your Jest configuration in your package.json.
 
 Shallow rendering is useful to constrain yourself to testing a component as a unit, and to ensure that your tests aren't indirectly asserting on behavior of child components.
 
+* Test that App renders without crashing
+  - verify that App renders a div with the class App-header
+  - verify that App renders a div with the class App-body
+  - verify that App renders a div with the class App-footer
+* Test that Notifications renders without crashing
+  - verify that Notifications renders three list items
+  - verify that Notifications renders the text Here is the list of notifications
 ```
 /dashboard$ npm test
  PASS  src/utils.test.js (28.03 s)
@@ -118,7 +131,8 @@ Snapshots:   0 total
 Time:        59.207 s
 ```
 
-
+### [7. Deploy to a GitHub page](https://21kgold.github.io/holbertonschool-web_react/)
+* Deploy your application to GitHub Pages using gh-pages branch and create-react-app.
 ```
 /dashboard$ npm i --save-dev gh-pages
 ```
