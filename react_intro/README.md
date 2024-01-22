@@ -103,3 +103,50 @@ Time:        47.416 s
 ```
 * Configure Enzyme to use the adapter you’ve installed in your setup file.
 * update your Jest configuration to automatically use enzyme-to-json serializer, by adding "snapshotSerializers": ["enzyme-to-json/serializer"] to your Jest configuration in your package.json.
+
+Shallow rendering is useful to constrain yourself to testing a component as a unit, and to ensure that your tests aren't indirectly asserting on behavior of child components.
+
+```
+/dashboard$ npm test
+ PASS  src/utils.test.js (28.03 s)
+ PASS  src/Notifications.test.js (40.903 s)
+ PASS  src/App.test.js (33.187 s)
+
+Test Suites: 3 passed, 3 total
+Tests:       11 passed, 11 total
+Snapshots:   0 total
+Time:        59.207 s
+```
+
+
+```
+/dashboard$ npm i --save-dev gh-pages
+```
+* Add a homepage property to your package.json file.
+
+```
+/task_4/dashboard$ npm run deploy
+
+> dashboard@0.1.0 predeploy  .../task_4/dashboard
+> npm run build
+
+
+> dashboard@0.1.0 build  .../task_4/dashboard
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  47.34 kB (-16 B)  build/static/js/main.6b026536.js
+  1.78 kB           build/static/js/787.1cd31a9e.chunk.js
+  440 B             build/static/css/main.4ef31a4b.css
+
+> dashboard@0.1.0 deploy  .../task_4/dashboard
+> gh-pages -d build
+
+Username for 'https://github.com': 21Kgold
+Password for 'https://21Kgold@github.com':
+Published
+```
