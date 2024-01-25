@@ -1,0 +1,8 @@
+#count, #startButton {
+    display: inline;
+}
+
+#count {
+    padding-left: 20px;
+    font-weight: bold;
+}
