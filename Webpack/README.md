@@ -33,7 +33,7 @@ cacheable modules 279 KiB
 webpack 5.89.0 compiled successfully in 437 ms
 ```
 <p align="center">
-  <img src="./images/task_0.png" alt="Image Description" width="30%" />
+  <img src="./images/task_0.png" alt="Image Description" width="60%" />
 </p>
 
 ### [1. Learning how to use Webpack with a config file](./task_1/js/dashboard_main.js)
@@ -54,8 +54,8 @@ webpack 5.89.0 compiled successfully in 437 ms
 /task_1$ npm run build
 ```
 <p align="center">
-  <img src="./images/task_1a.png" alt="Image Description" width="30%" />
-  <img src="./images/task_1b.png" alt="Image Description" width="30%" />
+  <img src="./images/task_1a.png" alt="Image Description" width="50%" />
+  <img src="./images/task_1b.png" alt="Image Description" width="50%" />
 </p>
 
 ### [2. Adding CSS & Images](./task_2/js/dashboard_main.js)
@@ -68,7 +68,7 @@ webpack 5.89.0 compiled successfully in 437 ms
 /task_1$ npm run build
 ```
 <p align="center">
-  <img src="./images/task_2.png" alt="Image Description" width="30%" />
+  <img src="./images/task_2.png" alt="Image Description" width="60%" />
 </p>
 
 file-loader image-webpack-loader were installed at the end for checker, but it doesn't work.
