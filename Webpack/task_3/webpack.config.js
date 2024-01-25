@@ -24,6 +24,9 @@ module.exports = {
   devServer: {
     port: 8564,
     open: true,
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },
   },
   module: {
     rules: [
