@@ -51,7 +51,7 @@ To create a production build, use npm run build.
 webpack compiled successfully
 ```
 <p align="center">
-  <img src="./images/task_0_dashboards.png" alt="Image Description" width="50%"/>
+  <img src="./images/task_0_dashboards.png" alt="Image Description" width="60%"/>
 </p>
 
 ```
@@ -82,7 +82,7 @@ File sizes after gzip:
 * Modify the notification component, style the list using the data attribute to make it look like the given screeshot.
 
 <p align="center">
-  <img src="./images/task_2_dashboards2.png" alt="Image Description" width="50%"/>
+  <img src="./images/task_2_dashboards2.png" alt="Image Description" width="60%"/>
 </p>
 
 ### [4. Create basic tests with Jest and then with Enzyme](./task_3/dashboard/src/utils.test.js)
@@ -162,3 +162,25 @@ Username for 'https://github.com': 21Kgold
 Password for 'https://21Kgold@github.com':
 Published
 ```
+### [8. Create a project using Webpack](./task_5/dashboard/src/index.js)
+* Start a new project without using create-react-app but webpack. It most support css, images, inline source map.
+* Set up a dev server with hot reloading
+```
+/task_5/dashboard$ npm init -y
+/task_5/dashboard$ npm install --save-dev webpack webpack-cli css-loader style-loader file-loader image-webpack-loader webpack-dev-server
+```
+* Install Babel and babel-loader, and configure .babelrc for preset-env and preset-react. Configure Webpack to support js and jsx files.
+* Reuse src files from previous task.
+```
+/task_5/dashboard$ npm install --save-dev @babel/core @babel/cli @babel/preset-env babel-loader @babel/preset-react --save-dev web-vitals
+/task_5/dashboard$ npm install react@16 react-dom@16
+/task_5/dashboard$ npm start
+```
+* Reorganize the files: every file related to the App, should be within a App folder, etc.
+* Install Jest and Enzyme and update your package.json to run the command `npm test`.
+```
+/task_5/dashboard$ npm install --save-dev jest enzyme enzyme-adapter-react-16 babel-jest
+/task_5/dashboard$ npm start
+/task_5/dashboard$ npm test
+```
+To set [Jest to handle the import of an image file](https://jestjs.io/docs/webpack#handling-static-assets), create a mock file and update package.json to tell Jest to use this mock file when it encounters file types that it doesn’t know how to handle.
