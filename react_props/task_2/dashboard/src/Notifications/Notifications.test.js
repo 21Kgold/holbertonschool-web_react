@@ -25,5 +25,5 @@ test('Verify that App renders a <p> element with the right text', () => {
 test('Verify that App renders a div with the class App-header', () => {
     const wrapper = shallow(<Notifications />);
     const firstItem = wrapper.find(NotificationItem).first().dive();
-    expect(firstItem.text()).toEqual("New course available");
+    expect(firstItem.find('li').text()).toBe("New course available");
 });
