@@ -1,0 +1,19 @@
+#CourseList {
+    border: 2.5px solid rgb(180, 169, 169);
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    margin-top: 10vh;
+    margin-bottom: 30vh;
+}
+
+#CourseList thead tr:first-child th{
+    text-align: left;
+    padding-left: 43%;
+}
+
+#CourseList th {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    border-bottom: 2.5px solid rgb(180, 169, 169);
+}
