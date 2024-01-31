@@ -1,0 +1,27 @@
+.Notifications {
+    border: 2px dashed #e0003c;
+    padding: 5px;
+}
+
+[data-notification-type='default'] {
+    color: blue;
+}
+
+[data-notification-type='urgent'] {
+    color: red;
+}
+
+.Notification-container {
+    position: absolute;
+    right: 5vh;
+    top: 2vh;
+}
+
+.menuItem {
+    text-align: end;
+    padding-bottom: 1vh;
+}
+
+ul {
+    padding-right: 10vh;
+}
