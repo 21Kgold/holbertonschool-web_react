@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     color: '#e0003c',
   },
 
-  AppFooter: {
+  footer: {
     minHeight: '5vh',
     display: 'flex',
     flexDirection: 'column',
@@ -91,13 +91,14 @@ class App extends Component {
         <div className="App">
           <Header/>
           <hr className={css(styles.sectionLine)}></hr>
-          <div>
+          <div className='body'>
             {displayScreen}
             <BodySection  title='News from the School' children={<p>Some random text</p>}></BodySection>
-          </div>
-          <hr className={css(styles.sectionLine)}></hr>
-          <div className={css(styles.AppFooter)}>
-            <Footer/>
+          
+            <hr className={css(styles.sectionLine)}></hr>
+            <div className={css(styles.footer)}>
+              <Footer/>
+            </div>
           </div>
         </div>
       </>
