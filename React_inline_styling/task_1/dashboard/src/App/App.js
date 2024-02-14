@@ -33,7 +33,6 @@ const styles = StyleSheet.create({
   },
 
   body: {
-    marginBottom: '40px'
   }
 })
 
