@@ -17,9 +17,25 @@ const styles = StyleSheet.create({
     height: '2.5px',
     backgroundColor: '#e0003c',
     color: '#e0003c',
+  },
+
+  AppFooter: {
+    minHeight: '5vh',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: 'calc(8px + 1vmin)',
+    fontStyle: 'italic',
+    fontWeight: '500',
+    textAlign: 'center',
+    fontFamily: 'Arial, Helvetica, sans-serif',
+  },
+
+  bodySectionWithMargin: {
+      marginBottom: '40px'
   }
 })
-
 
 class App extends Component {
   constructor(props) {
@@ -57,12 +73,17 @@ class App extends Component {
     let LoginHOC = WithLogging(Login);
     let displayScreen;
     if (this.props.isLoggedIn === false) {
-      displayScreen = <BodySectionWithMarginBottom title={'Log in to continue'}> <LoginHOC/> </BodySectionWithMarginBottom>
+      displayScreen =
+      <div className={css(styles.bodySectionWithMargin)}>
+        <BodySectionWithMarginBottom title={'Log in to continue'}> <LoginHOC/> </BodySectionWithMarginBottom>
+      </div>
     } else {
-      displayScreen = 
-      <BodySectionWithMarginBottom title={'Course list'}>
-        <CourseList listCourses={listCourses}/>
-      </BodySectionWithMarginBottom>
+      displayScreen =
+      <div className={css(styles.bodySectionWithMargin)}>
+        <BodySectionWithMarginBottom title={'Course list'}>
+          <CourseList listCourses={listCourses}/>
+        </BodySectionWithMarginBottom>
+      </div>
     }
     return (
       <>
@@ -70,10 +91,14 @@ class App extends Component {
         <div className="App">
           <Header/>
           <hr className={css(styles.sectionLine)}></hr>
-          {displayScreen}
-          <BodySection  title='News from the School' children={<p>Some random text</p>}></BodySection>
+          <div>
+            {displayScreen}
+            <BodySection  title='News from the School' children={<p>Some random text</p>}></BodySection>
+          </div>
           <hr className={css(styles.sectionLine)}></hr>
-          <Footer/>
+          <div className={css(styles.AppFooter)}>
+            <Footer/>
+          </div>
         </div>
       </>
     );

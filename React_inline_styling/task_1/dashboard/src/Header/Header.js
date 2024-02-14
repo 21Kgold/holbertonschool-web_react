@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     pointerEvents: 'none',
   },
   
-  AppHeader: {
+  Header: {
     minHeight: '24vh',
     display: 'flex',
     flexDirection: 'row',
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
 
 function Header() {
   return (
-        <div className={css(styles.AppHeader)}>
+        <div className={css(styles.Header)}>
           <img src={logo} className={css(styles.AppLogo)} />
           <h1>School dashboard</h1>
         </div>
