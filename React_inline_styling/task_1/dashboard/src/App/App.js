@@ -32,8 +32,8 @@ const styles = StyleSheet.create({
     fontFamily: 'Arial, Helvetica, sans-serif',
   },
 
-  bodySectionWithMargin: {
-      marginBottom: '40px'
+  body: {
+    marginBottom: '40px'
   }
 })
 
@@ -74,12 +74,12 @@ class App extends Component {
     let displayScreen;
     if (this.props.isLoggedIn === false) {
       displayScreen =
-      <div className={css(styles.bodySectionWithMargin)}>
+      <div>
         <BodySectionWithMarginBottom title={'Log in to continue'}> <LoginHOC/> </BodySectionWithMarginBottom>
       </div>
     } else {
       displayScreen =
-      <div className={css(styles.bodySectionWithMargin)}>
+      <div>
         <BodySectionWithMarginBottom title={'Course list'}>
           <CourseList listCourses={listCourses}/>
         </BodySectionWithMarginBottom>
@@ -91,7 +91,7 @@ class App extends Component {
         <div className="App">
           <Header/>
           <hr className={css(styles.sectionLine)}></hr>
-          <div className='body'>
+          <div className={css(styles.body)}>
             {displayScreen}
             <BodySection  title='News from the School' children={<p>Some random text</p>}></BodySection>
           
