@@ -15,9 +15,7 @@ import {StyleSheet, css} from 'aphrodite';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      displayDrawer: false
-    }
+    this.state = { displayDrawer: false };
   }
 
   componentDidMount() {
@@ -60,6 +58,7 @@ class App extends Component {
       {id: 3, name: 'React', credit: 40}
     ];
 
+    const { displayDrawer } = this.state;
     let LoginHOC = WithLogging(Login);
     let displayScreen;
     if (this.props.isLoggedIn === false) {
@@ -79,7 +78,7 @@ class App extends Component {
       <>
         <Notifications 
           listNotifications={listNotifications}
-          displayDrawer={this.state.displayDrawer}
+          displayDrawer={displayDrawer}
           handleDisplayDrawer={this.handleDisplayDrawer}
           handleHideDrawer={this.handleHideDrawer}
         />

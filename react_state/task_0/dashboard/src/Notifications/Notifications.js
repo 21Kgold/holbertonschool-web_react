@@ -24,16 +24,17 @@ class Notifications extends Component {
     }
 
     render() {
+        const { handleDisplayDrawer, handleHideDrawer } = this.props;
         // Close Drawer by clicking close button
         const handleCloseButtonClick = () => {
             console.log('Close button has been clicked');
-            this.props.handleHideDrawer();
+            handleHideDrawer();
         }
 
         // Open Drawer by clicking div.menuItem 
         const handleMenuItemClick = () => {
             console.log('div.menuItem has been clicked');
-            this.props.handleDisplayDrawer();
+            handleDisplayDrawer();
         }
     
         // Display if listNotifications is empty or not
