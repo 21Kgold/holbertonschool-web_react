@@ -25,17 +25,6 @@ class Notifications extends Component {
 
     render() {
         const { handleDisplayDrawer, handleHideDrawer } = this.props;
-        // Close Drawer by clicking close button
-        const handleCloseButtonClick = () => {
-            console.log('Close button has been clicked');
-            handleHideDrawer();
-        }
-
-        // Open Drawer by clicking div.menuItem 
-        const handleMenuItemClick = () => {
-            console.log('div.menuItem has been clicked');
-            handleDisplayDrawer();
-        }
     
         // Display if listNotifications is empty or not
         if (this.props.listNotifications.length < 1) {
@@ -56,7 +45,7 @@ class Notifications extends Component {
         if (this.props.displayDrawer === true) {
             notificationsDisplay = 
             <div data-testid="notis" className={css(styles.NotificationsSelector)}>
-                <button aria-label='Close' onClick={handleCloseButtonClick} style={{float: 'right', backgroundColor: 'transparent', border: 'none'}}>
+                <button aria-label='Close' onClick={handleHideDrawer} style={{float: 'right', backgroundColor: 'transparent', border: 'none'}}>
                     <img src={icon} alt='icon' style={{backgroundColor: 'transparent', border: 'none'}}></img>
                 </button>
                 {currentNotifications}
@@ -70,7 +59,7 @@ class Notifications extends Component {
 
         return (
             <div className={css(styles.NotificationContainer)}>
-                <div role="button" onClick={handleMenuItemClick} data-testid="menu-item" className={css(menuItem, styles.hover)}>Your notifications</div>
+                <div role="button" onClick={handleDisplayDrawer} data-testid="menu-item" className={css(menuItem, styles.hover)}>Your notifications</div>
                 {notificationsDisplay}
             </div>
         );
