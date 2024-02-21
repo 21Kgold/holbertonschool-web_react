@@ -17,10 +17,13 @@ import {user, logOut} from './AppContext';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { 
-      displayDrawer: false,
+    const value = {
       user: user,
       logOut: this.logOut
+    }
+    this.state = { 
+      displayDrawer: false,
+      value      
     };
   }
 
@@ -53,17 +56,23 @@ class App extends Component {
 
   logIn = (email, password) => {
     this.setState({
-      user: {
-        email: email,
-        password: password,
-        isLoggedIn: true,
-      },
+      value: {
+        ...this.state.value,
+        user: {
+          email: email,
+          password: password,
+          isLoggedIn: true,
+        },
+      }
     });
   }
 
   logOut = () => {
     this.setState({
-      user: user
+      value: {
+        ...this.state.value,
+        user: user
+      }
     });
   }
 
@@ -80,10 +89,10 @@ class App extends Component {
       {id: 3, name: 'React', credit: 40}
     ];
 
-    const { displayDrawer } = this.state;
+    const { displayDrawer, value } = this.state;
     let LoginHOC = WithLogging(Login);
     let displayScreen;
-    if (this.state.user.isLoggedIn === false) {
+    if (value.user.isLoggedIn === false) {
       displayScreen =
       <div>
         <BodySectionWithMarginBottom title={'Log in to continue'}> <LoginHOC logIn={this.logIn} /> </BodySectionWithMarginBottom>
@@ -97,7 +106,7 @@ class App extends Component {
       </div>
     }
     return (
-      <AppContext.Provider value={ {user: this.state.user, logOut: this.state.logOut}}>
+      <AppContext.Provider value={value}>
         <Notifications
           listNotifications={listNotifications}
           displayDrawer={displayDrawer}

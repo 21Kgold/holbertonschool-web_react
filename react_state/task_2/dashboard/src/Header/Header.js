@@ -12,19 +12,21 @@ class Header extends Component {
   static contextType = AppContext;
 
   render() {
-    let welcome;
-    if (this.context.user.isLoggedIn === true) {
-      welcome = <div id='logoutSection'>“Welcome <strong>{this.context.user.email}</strong><a className={css(styles.logOutLink)} onClick={this.context.logOut}> logout </a>”</div>
-    } else {
-      welcome = null;
-    }
     return (
       <>
       <div className={css(styles.header)}>
         <img src={logo} className={css(styles.AppLogo)} />
         <h1>School dashboard</h1>
       </div>
-      {welcome}
+
+      
+      {this.context.user.isLoggedIn &&
+      (<div id='logoutSection'>
+        Welcome
+        <strong>{this.context.user.email}</strong>
+        <a className={css(styles.logOutLink)} onClick={this.context.logOut}> logout </a>
+        </div>)
+      }
       </>
     );
   }

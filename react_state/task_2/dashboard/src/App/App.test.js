@@ -1,9 +1,7 @@
 import React from 'react';
 import { shallow, mount } from "enzyme";
 import App from "./App"
-import ReactDOM from 'react-dom';
 import {StyleSheetTestUtils} from 'aphrodite';
-import AppContext from './AppContext';
 import {user, logOut} from './AppContext';
 
 beforeAll(() => {
@@ -49,7 +47,6 @@ test('CourseList is not displayed', () => {
 });
 
 test('CourseList is displayed if isLoggedIn: true', () => {
-    const stateValue = { [user]: { email: 'hello@true', password: 'codeword', isLoggedIn: true }, [logOut]: logOut };
     const wrapper = mount(<App />);
     wrapper.instance().logIn('hello@true', 'codeword');
 
@@ -57,7 +54,7 @@ test('CourseList is displayed if isLoggedIn: true', () => {
     //ensure the component re-renders before the assertions
     wrapper.update();
 
-    expect(wrapper.state().user.isLoggedIn).toBe(true);
+    expect(wrapper.state().value.user.isLoggedIn).toBe(true);
     expect(wrapper.find('Login').length).toBe(0);
     expect(wrapper.find('CourseList').length).toBe(1);
 });
@@ -109,13 +106,13 @@ test('verify that the logIn function updates the state correctly', () => {
     //ensure the component re-renders before the assertions
     wrapper.update();
 
-    expect(wrapper.state().user.isLoggedIn).toBe(true);
-    expect(wrapper.state().user.email).toBe('hello@true');
-    expect(wrapper.state().user.password).toBe('codeword');
+    expect(wrapper.state().value.user.isLoggedIn).toBe(true);
+    expect(wrapper.state().value.user.email).toBe('hello@true');
+    expect(wrapper.state().value.user.password).toBe('codeword');
 });
 
 test('verify that the logOut function updates the state correctly', () => {
-    const stateValue = { user: { email: 'hello@true', password: 'codeword', isLoggedIn: true }, logOut: logOut };
+    const stateValue = {value: { user: { email: 'hello@true', password: 'codeword', isLoggedIn: true }, logOut: logOut }};
     const wrapper = mount(<App />);
     wrapper.instance().setState(stateValue);
 
@@ -124,12 +121,12 @@ test('verify that the logOut function updates the state correctly', () => {
     wrapper.update();
 
     expect(wrapper.state().user).toEqual(stateValue.user);
-    expect(wrapper.state().user.isLoggedIn).toBe(true);
-    expect(wrapper.state().user.email).toBe('hello@true');
-    expect(wrapper.state().user.password).toBe('codeword');
+    expect(wrapper.state().value.user.isLoggedIn).toBe(true);
+    expect(wrapper.state().value.user.email).toBe('hello@true');
+    expect(wrapper.state().value.user.password).toBe('codeword');
 
     wrapper.instance().logOut();
-    expect(wrapper.state().user.isLoggedIn).toBe(false);
-    expect(wrapper.state().user.email).toBe('');
-    expect(wrapper.state().user.password).toBe('');
+    expect(wrapper.state().value.user.isLoggedIn).toBe(false);
+    expect(wrapper.state().value.user.email).toBe('');
+    expect(wrapper.state().value.user.password).toBe('');
 });
