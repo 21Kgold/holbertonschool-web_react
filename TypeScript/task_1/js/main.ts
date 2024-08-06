@@ -11,7 +11,7 @@ export interface Directors extends Teacher {
     numberOfReports: number;
 }
 
-export interface printTeacherFunction {
+export interface PrintTeacherFunction {
     (firstName: string, lastName: string): string;
 }
 
@@ -24,7 +24,7 @@ export interface StudentInstance {
     new (firstName: string, lastName: string): Student;
 }
 
-export const printTeacher: printTeacherFunction = (firstName, lastName) => {
+export const printTeacher: PrintTeacherFunction = (firstName, lastName) => {
     return firstName[0] + '. ' + lastName;
 }
 
@@ -37,11 +37,11 @@ export class StudentClass implements Student {
         this.lastName = lastName;
     }
 
-    workOnHomework() {
+    workOnHomework(): string {
         return 'Currently working';
     }
 
-    displayName() {
+    displayName(): string {
         return this.firstName;
     }
 }
