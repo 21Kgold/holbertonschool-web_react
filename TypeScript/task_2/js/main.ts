@@ -11,77 +11,58 @@ export interface TeacherInterface {
 }
 
 export const Director = class Director implements DirectorInterface {
-    constructor() {}
-
-    workFromHome() {
-        return 'Working from home';
-    }
-
-    getCoffeeBreak() {
-        return 'Getting a coffee break';
-    }
-
-    workDirectorTasks() {
-        return 'Getting to director tasks';
-    }
-}
+    workFromHome = (): string => "Working from home";
+    getCoffeeBreak = (): string => "Getting a coffee break";
+    workDirectorTasks = (): string => "Getting to director tasks";
+};
 
 export const Teacher = class Teacher implements TeacherInterface {
+    workFromHome = (): string => "Cannot work from home";
+    getCoffeeBreak = (): string => "Cannot have a break";
+    workTeacherTasks = (): string => "Getting to work";
+};
 
-    workFromHome() {
-        return 'Cannot work from home';
-    }
-
-    getCoffeeBreak() {
-        return 'Cannot have a break';
-    }
-
-    workTeacherTasks() {
-        return 'Getting to work';
-    }
-}
-
-export const createEmployee = (salary: number | string): TeacherInterface | DirectorInterface => {
-    if (typeof(salary) === 'number' && salary < 500) {
-        return new Teacher();
-    }
-    return new Director();
-}
+export const createEmployee = (salary: number | string): DirectorInterface | TeacherInterface => {
+    if (typeof salary !== "number") salary = parseInt(salary);
+    if (salary < 500 ) return new Teacher();
+    else return new Director();
+};
 
 export const isDirector = (employee: TeacherInterface | DirectorInterface): employee is DirectorInterface => {
     return (employee as DirectorInterface).workDirectorTasks !== undefined;
 }
 
-export const executeWork = (employee: TeacherInterface | DirectorInterface) => {
-    if (isDirector(employee)) {
-        return employee.workDirectorTasks();
-    } else {
-        return employee.workTeacherTasks();
-    }
+export const executeWork = (employee: TeacherInterface | DirectorInterface): string => {
+    if (isDirector(employee)) return employee.workDirectorTasks();
+    else return employee.workTeacherTasks();
 }
 
 export type Subjects = 'Math' | 'History';
 
-const teachClass = (todayClass: Subjects): string => {
-    if (todayClass === 'Math') {
-        return 'Teaching Math';
-    } else if (todayClass === 'History') {
-        return 'Teaching History';
-    }
+export const teachClass = (todayClass: Subjects): string => {
+    if (todayClass === 'Math') return 'Teaching Math';
+    else if (todayClass === 'History') return 'Teaching History';
 }
 
+const employee1 = createEmployee(200);
+const employee2 = createEmployee(600);
+const employee3 = createEmployee("200");
+const employee4 = createEmployee("600");
 
+console.log(employee1);
+console.log(employee2);
+console.log(employee3);
+console.log(employee4);
 
-console.log(createEmployee(200));
-console.log(createEmployee(1000));
-console.log(createEmployee('$500'));
-const a = createEmployee(501);
-console.log(typeof(a));
-console.log(a.getCoffeeBreak());
-console.log(a.workFromHome());
-const b = createEmployee(400);
-console.log(typeof(b));
-console.log(executeWork(createEmployee(200)));
-console.log(executeWork(createEmployee(1000)));
+console.log(isDirector(employee1));
+console.log(isDirector(employee2));
+console.log(isDirector(employee3));
+console.log(isDirector(employee4));
+
+console.log(executeWork(employee1));
+console.log(executeWork(employee2));
+console.log(executeWork(employee3));
+console.log(executeWork(employee4));
+
 console.log(teachClass('Math'));
 console.log(teachClass('History'));
