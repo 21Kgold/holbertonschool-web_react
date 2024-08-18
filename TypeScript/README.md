@@ -10,6 +10,7 @@
 <div align="center">
   <img src="./images/barra3.png" alt="White Bar" width="100%" height="20px">
   <img src="./images/barra2.png" alt="Red Bar" width="100%" height="4.5px">
+  <img src="./images/barra3.png" alt="White Bar" width="100%" height="20px">
 </div>
 
 
