@@ -1,4 +1,4 @@
-﻿![](/images/barra2.png)
+﻿![](./images/barra2.png)
 
 <h1 align="center">TypeScript</h1>
 
