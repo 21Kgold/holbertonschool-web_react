@@ -7,6 +7,24 @@
   </p>
 </div>
 
+<div align="center">
+  
+![Red Bar](https://img.shields.io/badge/-e1003c?style=for-the-badge&color=e1003c)
+
+# TypeScript
+
+**Foundations of Computer Science and Full-Stack Web Development** program at [Holberton School](https://www.holbertonschool.com/)
+
+</div>
+
+<h1 align="center">TypeScript</h1>
+
+<p align="center">
+  <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at
+  <a href="https://www.holbertonschool.com/">Holberton School</a>
+</p>
+
+
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3.x-2f878c.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-14.x-e1003c.svg)](https://nodejs.org/)
