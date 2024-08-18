@@ -1,3 +1,5 @@
+﻿![](/images/barra2.png)
+
 <h1 align="center">TypeScript</h1>
 
 <p align="center">
