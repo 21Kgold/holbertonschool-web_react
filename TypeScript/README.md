@@ -7,6 +7,18 @@
   <a href="https://www.holbertonschool.com/">Holberton School</a>
 </p>
 
+<div align="center">
+  <img src="./images/barra.png" alt="Red Bar" width="100%" height="20px">
+  <h1>TypeScript</h1>
+  <p><strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at <a href="https://www.holbertonschool.com/">Holberton School</a></p>
+</div>
+
+<div align="center">
+  <img src="./images/barra2.png" alt="Red Bar" width="100%" height="20px">
+  <h1>TypeScript</h1>
+  <p><strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at <a href="https://www.holbertonschool.com/">Holberton School</a></p>
+</div>
+
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3.x-2f878c.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-14.x-e1003c.svg)](https://nodejs.org/)
@@ -177,19 +189,3 @@ node ./dist/bundle.js
   </p>
 </div>
 
-<div align="center">
-  <img src="./images/barra.png" alt="Red Bar">
-  <img src="/images/logo.webp" width="100%" height="1px"> <!-- Invisible spacer -->
-  <h1 align="center">TypeScript</h1>
-
-<p align="center">
-  <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at
-  <a href="https://www.holbertonschool.com/">Holberton School</a>
-</p>
-</div>
-
-<div align="center">
-  <img src="./images/barra.png" alt="Red Bar" width="100%" height="20px">
-  <h1>TypeScript</h1>
-  <p><strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at <a href="https://www.holbertonschool.com/">Holberton School</a></p>
-</div>
