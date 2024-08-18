@@ -1,29 +1,9 @@
-<div style="position: relative; background-color: #292728; padding: 30px 20px; margin-bottom: 20px; overflow: hidden;">
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background-color: #e1003c;"></div>
-  <h1 style="color: #FFFFFF; font-size: 3.5em; margin: 0; padding: 10px; text-align: center;">TypeScript</h1>
-  <p style="color: #FFFFFF; font-size: 1em; margin: 10px 0 0 0; text-align: center;">
-    <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at
-    <a href="https://www.holbertonschool.com/" style="color: #e1003c; font-weight: bold; text-decoration: none;">Holberton School</a>
-  </p>
-</div>
-
-<div align="center">
-  
-![Red Bar](https://img.shields.io/badge/-e1003c?style=for-the-badge&color=e1003c)
-
-# TypeScript
-
-**Foundations of Computer Science and Full-Stack Web Development** program at [Holberton School](https://www.holbertonschool.com/)
-
-</div>
-
 <h1 align="center">TypeScript</h1>
 
 <p align="center">
   <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at
   <a href="https://www.holbertonschool.com/">Holberton School</a>
 </p>
-
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3.x-2f878c.svg)](https://www.typescriptlang.org/)
@@ -65,7 +45,7 @@ Created unique, incompatible types for structurally similar data models using Ty
 
 <details>
   <summary style="display: inline-block; cursor: pointer; font-size: 1.2em; font-weight: bold; color: #e1003c; border-bottom: 2px solid #e1003c; padding-bottom: 5px; margin-bottom: 10px;">
-    <span style="color: #e1003c; margin-right: 5px;">&#43;</span> Project Screenshots
+    Project Screenshots
   </summary>
 
 ### Task 0 Typescript dynamic data display
@@ -195,52 +175,13 @@ node ./dist/bundle.js
   </p>
 </div>
 
-
-# TypeScript
-
 <div align="center">
-
-**Foundations of Computer Science and Full-Stack Web Development** program at
-[Holberton School](https://www.holbertonschool.com/)
-
-</div>
-
-
-<h1 align="center">TypeScript</h1>
+  <img src="./images/barra.png" alt="Red Bar">
+  <img src="/images/logo.webp" width="100%" height="1px"> <!-- Invisible spacer -->
+  <h1 align="center">TypeScript</h1>
 
 <p align="center">
   <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at
   <a href="https://www.holbertonschool.com/">Holberton School</a>
 </p>
-
-
-| |
-|:---:|
-| <h1 align="center">TypeScript</h1> |
-| <p align="center"><strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at <a href="https://www.holbertonschool.com/">Holberton School</a></p> |
-
-| |
-|:---:|
-| <h1 align="center" style="margin-bottom:0">TypeScript</h1> |
-| <p align="center"><strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at <a href="https://www.holbertonschool.com/">Holberton School</a></p> |
-
-![Red Border](path_to_red_border_image.png)
-
-# TypeScript
-
-**Foundations of Computer Science and Full-Stack Web Development** program at [Holberton School](https://www.holbertonschool.com/)
-
-
-$${\color{#e1003c}\rule{\textwidth}{1pt}}$$
-
-# TypeScript
-
-**Foundations of Computer Science and Full-Stack Web Development** program at [Holberton School](https://www.holbertonschool.com/)
-
-
-----------------------------
-# TypeScript
-
-**Foundations of Computer Science and Full-Stack Web Development** program at [Holberton School](https://www.holbertonschool.com/)
-----------------------------
-
+</div>
