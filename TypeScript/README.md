@@ -1,4 +1,4 @@
-![](./images/barra2.png)
+﻿![](./images/barra2.png)
 
 <h1 align="center">TypeScript</h1>
 
@@ -7,10 +7,28 @@
   <a href="https://www.holbertonschool.com/">Holberton School</a>
 </p>
 
-###
+<div align="center">
+  <img src="./images/barra.png" alt="Red Bar" width="100%" height="20px">
+</div>
 
+<div align="center">
+  <img src="./images/barra2.png" alt="Red Bar" width="100%" height="4.5px">
+  <img src="./images/barra3.png" alt="White Bar" width="100%" height="20px">
+  <h1>TypeScript</h1>
+  <p><strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at <a href="https://www.holbertonschool.com/">Holberton School</a></p>
+  <img src="./images/barra3.png" alt="White Bar" width="100%" height="20px">
+  <img src="./images/barra2.png" alt="Red Bar" width="100%" height="4.5px">
+  <img src="./images/barra2.png" alt="Red Bar" width="100%" height="4.5px">
+</div>
 
-
+<div style="position: relative; background-color: #292728; padding: 30px 20px; margin-bottom: 20px; overflow: hidden;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background-color: #e1003c;"></div>
+  <h1 style="color: #FFFFFF; font-size: 3.5em; margin: 0; padding: 10px; text-align: center;">TypeScript</h1>
+  <p style="color: #FFFFFF; font-size: 1em; margin: 10px 0 0 0; text-align: center;">
+    <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at
+    <a href="https://www.holbertonschool.com/" style="color: #e1003c; font-weight: bold; text-decoration: none;">Holberton School</a>
+  </p>
+</div>
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3.x-2f878c.svg)](https://www.typescriptlang.org/)
