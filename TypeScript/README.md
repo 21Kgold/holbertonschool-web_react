@@ -1,4 +1,4 @@
-﻿![](./images/barra2.png)
+![](./images/barra2.png)
 
 <h1 align="center">TypeScript</h1>
 
@@ -7,9 +7,10 @@
   <a href="https://www.holbertonschool.com/">Holberton School</a>
 </p>
 
+###
 
-<p></p>
-<p></p>
+
+
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3.x-2f878c.svg)](https://www.typescriptlang.org/)
