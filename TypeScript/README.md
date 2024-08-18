@@ -185,3 +185,9 @@ node ./dist/bundle.js
   <a href="https://www.holbertonschool.com/">Holberton School</a>
 </p>
 </div>
+
+<div align="center">
+  <img src="./images/barra.png" alt="Red Bar" width="100%" height="20px">
+  <h1>TypeScript</h1>
+  <p><strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at <a href="https://www.holbertonschool.com/">Holberton School</a></p>
+</div>
