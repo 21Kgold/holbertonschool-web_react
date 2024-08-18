@@ -1,159 +1,178 @@
-# Typescript
+<div style="position: relative; background-color: #292728; padding: 30px 20px; margin-bottom: 20px; overflow: hidden;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background-color: #e1003c;"></div>
+  <h1 style="color: #FFFFFF; font-size: 3.5em; margin: 0; padding: 10px; text-align: center;">TypeScript</h1>
+  <p style="color: #FFFFFF; font-size: 1em; margin: 10px 0 0 0; text-align: center;">
+    <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at
+    <a href="https://www.holbertonschool.com/" style="color: #e1003c; font-weight: bold; text-decoration: none;">Holberton School</a>
+  </p>
+</div>
 
-TypeScript is a superset of JavaScript that adds static typing, that catch type-related errors during development. TypeScript also introduces features like interfaces, classes, and advanced type annotations.
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3.x-2f878c.svg)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-14.x-e1003c.svg)](https://nodejs.org/)
+[![Webpack](https://img.shields.io/badge/Webpack-4.x-8dd6f9.svg)](https://webpack.js.org/)
+[![ESLint](https://img.shields.io/badge/ESLint-7.x-4B32C3.svg)](https://eslint.org/)
 
-TypeScript code is transpiled to standard JavaScript, which means that developer can choose which javascript modules use in the ts files and to which javascript version transpile them.
+## Key Features
+* Strong typing
+* DOM manipulation and dynamic content rendering with type-safe TypeScript
+* Bundling of TypeScript projects with webpack
+* Strict code quality and style enforcement tailored for TypeScript
+* Advanced TypeScript Patterns
+## Exercises
+### Configuration Files
+- [package.json](./task_0/package.json): Manages project dependencies and scripts
+- [.eslintrc.js](./task_0/.eslintrc.js): ESLint configuration for code linting
+- [tsconfig.json](./task_0/tsconfig.json): TypeScript compiler options
+- [webpack.config.js](./task_0/webpack.config.js): Webpack configuration for bundling
 
-## Description
-* Basic types in Typescript
-* Interfaces, Classes, and functions
-* How to work with the DOM and Typescript
-* Generic types
-* How to use namespaces
-* How to merge declarations
-* How to use an ambient Namespace to import an external library
-* Basic nominal typing with Typescript
+Each exercise was completed using the provided configuration files.
+### [Task 0: Basic TypeScript Setup](./task_0/js/main.ts) 
+Deciphered the architecture of a foundational TypeScript project from provided configuration files, and implemented a dynamic data display using Vanilla JavaScript in accordance with the existing project structure.
 
-## Setup
+### [Task 1: Interfaces and Classes](./task_1/js/main.ts)
+Developed a comprehensive class structure with associated interfaces and interface extensions.
 
-```
-$ lsb_release -a
-No LSB modules are available.
-Distributor ID: Ubuntu
-Description:    Ubuntu 18.04.6 LTS
-Release:        18.04
-Codename:       bionic
-```
+### [Task 2: Advanced Types](./task_2/js/main.ts)
+Created a factory function utilizing type predicates and string literals, for precise argument handling.
 
-Install NodeJS 12.11.x if not installed
-```
-$ nodejs -v
-v12.22.12
-$ npm -v
-6.14.16
-```
+### [Task 3: Ambient Declarations](./task_3/js/main.ts)
+Integrated an external JavaScript library (crud.js) into a TypeScript project using ambient declarations.
 
-Install ESLint, typescript and webpack in task_0 directory:
-```
-$ npm install --save-dev eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
-$ npm install webpack webpack-cli typescript ts-loader --save-dev
-```
+### [Task 4: Namespaces](./task_4/js/main.ts)
+Developed a multi-file namespace structure with an accompanying HTML demo, necessitating alternative approaches to module management and script loading due to the absence of bundling tools. This task utilized a new provided [package.json](./task_4/package.json) that excluded bundlers.
 
-Include the configuration files:
-* [package.json](./task_0/package.json)
-* [.eslintrc.js](./task_0/.eslintrc.js)
-* [tsconfig.json](./task_0/tsconfig.json)
-* [webpack.config.js](./task_0/webpack.config.js)
+### [Task 5: Brand Types](./task_5/js/main.ts)
+Created unique, incompatible types for structurally similar data models using TypeScript's branded types feature.
 
-Finally, run `npm install` from the terminal of your project folder to install all necessary project dependencies.
+<details>
+  <summary style="display: inline-block; cursor: pointer; font-size: 1.2em; font-weight: bold; color: #e1003c; border-bottom: 2px solid #e1003c; padding-bottom: 5px; margin-bottom: 10px;">
+    <span style="color: #e1003c; margin-right: 5px;">&#43;</span> Project Screenshots
+  </summary>
 
----
-
-### [0. Creating an interface for a student](./task_0/js/main.ts)
-* Define a TypeScript interface Student that accepts the following elements:
-    - firstName: string
-    - lastName: string
-    - age: number
-    - location: string
-* Use the interface to create two student objects (student1 and student2), then create an array studentsList that holds these student objects. 
-* Dynamically create an HTML table to display firstname and location of each student.
-
-Using Webpack with TypeScript provides a comprehensive build and bundling solution for modern web development, addressing not only TypeScript compilation but also optimizing assets, supporting modular development, and enhancing the development experience. While running TypeScript directly is suitable for simpler scenarios, Webpack becomes increasingly valuable as projects grow in complexity and require advanced optimization techniques.
-
-```
-$ npm run build    
-
-> typescript_dependencies@1.0.0 build /mnt/c/Users/cau_r/Github/holbertonschool-web_react/TypeScript/task_0     
-> webpack
-
-Starting type checking service...
-Using 1 worker with 2048MB memory limit
-Hash: 47ba650bbd456b73c1da
-Version: webpack 4.47.0
-Time: 46853ms
-Built at: 01/04/2024 12:10:45 PM
-     Asset       Size  Chunks             Chunk Names
- bundle.js   9.88 KiB       0  [emitted]  main
-index.html  182 bytes          [emitted]
-Entrypoint main = bundle.js
-[0] ./js/main.ts 834 bytes {0} [built]
-
-WARNING in configuration
-The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
-You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
-Child html-webpack-plugin for "index.html":
-     1 asset
-    Entrypoint undefined = index.html
-    [2] (webpack)/buildin/global.js 472 bytes {0} [built]
-    [3] (webpack)/buildin/module.js 497 bytes {0} [built]
-        + 2 hidden modules
-```
-<p align="center">
-  <img src="./images/task_0_transpiled_files.png" alt="Image Description" />
-</p>
-
-
-```
-$ npm run start-dev
-
-> typescript_dependencies@1.0.0 start-dev /mnt/c/Users/cau_r/Github/holbertonschool-web_react/TypeScript/task_0 
-> webpack-dev-server --open
-
-Starting type checking service...
-Using 1 worker with 2048MB memory limit
-ℹ ｢wds｣: Project is running at http://localhost:8080/
-ℹ ｢wds｣: webpack output is served from /
-ℹ ｢wds｣: Content not from webpack is served from ./dist
-ℹ ｢wdm｣: wait until bundle finished: /
-Type checking in progress...
-ℹ ｢wdm｣: Hash: 453efb46d800a24a8ad5
-Version: webpack 4.47.0
-Time: 3760ms
-Built at: 01/04/2024 12:11:40 PM
-     Asset       Size  Chunks             Chunk Names
- bundle.js    992 KiB    main  [emitted]  main
-index.html  182 bytes          [emitted]
-Entrypoint main = bundle.js
-[0] multi (webpack)-dev-server/client?http://localhost:8080 ./js/main.ts 40 bytes {main} [built]
-[./js/main.ts] 834 bytes {main} [built]
-[./node_modules/ansi-html-community/index.js] 4.16 KiB {main} [built]
-[./node_modules/html-entities/lib/index.js] 449 bytes {main} [built]
-[./node_modules/loglevel/lib/loglevel.js] 9.34 KiB {main} [built]
-[./node_modules/url/url.js] 23 KiB {main} [built]
-[./node_modules/webpack-dev-server/client/index.js?http://localhost:8080] (webpack)-dev-server/client?http://localhost:8080 4.29 KiB {main} [built]
-[./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.52 KiB {main} [built]
-[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {main} [built]
-[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {main} [built]
-[./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {main} [built]
-[./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {main} [built]
-[./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {main} [built]
-[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] (webpack)-dev-server/node_modules/strip-ansi/index.js 161 bytes {main} [built]
-[./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]  
-    + 36 hidden modules
-Child html-webpack-plugin for "index.html":
-     1 asset
-    Entrypoint undefined = index.html
-    [./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs] 376 bytes {0} [built]
-    [./node_modules/lodash/lodash.js] 531 KiB {0} [built]
-    [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 472 bytes {0} [built]
-    [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 497 bytes {0} [built]
-ℹ ｢wdm｣: Compiled successfully.
-No type errors found
-Version: typescript 3.9.10
-Time: 50137ms
-^C
-```
-<p align="center">
-  <img src="./images/task_0_browser.png" alt="Image Description" />
-  <img src="./images/task_0_browser_inspect.png" alt="Image Description" />
-  <img src="./images/transpiled files after npm run start-dev.png" alt="Image Description" />
-</p>
-
+### Task 0 Typescript dynamic data display
 Note that dist directory is being erased or not populated when using npm run start-dev. This behavior is normal because the development server doesn't create physical files in the dist directory. Instead, it serves the files from memory to provide a quicker feedback loop during development.
+<p align="center">
+  <img src="./images/transpiled files after npm run start-dev.png" alt="Image Description" width="800" />
+</p>
+<p align="center"><em>Development Server files of Task 0</em></p>
 
-### [0. Creating an interface for a student](./task_0/js/main.ts)
-* Define a TypeScript interface Student that accepts the following elements:
-    - firstName: string
-    - lastName: string
-    - age: number
-    - location: string
+<p></p>
+
+<p align="center"><img src="./images/task_0_browser.png" alt="Task 0" width="800"/></p>
+<p align="center"><em>Development Server Output of Task 0</em></p>
+
+### Task 1: Interfaces and Classes
+```bash
+USER-PC/task_1$ node ./dist/bundle.js 
+{
+  firstName: 'John',
+  fullTimeEmployee: false,
+  lastName: 'Lenon',
+  yearsOfExperience: 33,
+  location: 'Liverpool, England',
+  contract: false,
+  subject: 'guitar'
+}
+{
+  firstName: 'Paul',
+  fullTimeEmployee: true,
+  lastName: 'McCartney',
+  location: 'Liverpool, England',
+  subject: 'piano'
+}
+{
+  firstName: 'George',
+  fullTimeEmployee: true,
+  lastName: 'Harrison',
+  location: 'Liverpool, England'
+}
+{
+  firstName: 'Ringo',
+  fullTimeEmployee: true,
+  lastName: 'Star',
+  location: 'Liverpool, England',
+  numberOfReports: 1
+}
+J. Lennon
+Yoco: Currently working
+```
+
+### Task 2: Advanced Types
+
+<p align="center">
+  <img src="./images/task_2_browser.png" alt="Task 2 Screenshot" width="800"/>
+</p>
+<p align="center"><em>DevTools console of Task 2</em></p>
+
+### Task 3: Ambient Declarations
+```bash
+USER-PC/task_3$ node ./dist/bundle.js
+Insert row { firstName: 'Guillaume', lastName: 'Salva' }
+Update row 573 { firstName: 'Guillaume', lastName: 'Salva', age: 23 }
+Delete row id 573
+```
+
+### Task 4: Namespaces
+
+<p align="center">
+  <img src="./images/task_4_browser.png" alt="Task 4 Screenshot" width="800"/>
+</p>
+<p align="center"><em>DevTools console of Task 4</em></p>
+
+### Task 5: Brand Types
+```bash
+USER-PC/task_5$ node ./dist/bundle.js
+{ credits: 6 }
+```
+
+</details>
+
+## Project Setup
+### Development Environment
+* Editor: Visual Studio Code
+* Node 14.21.3 and npm for package management
+* Operating System: Ubuntu 18.04.6 LTS
+### Technologies
+- TypeScript 3.x
+- JavaScript ES6+
+- Webpack 4.x
+- ESLint 7.x with TypeScript parser and plugins
+## Getting Started
+1. Ensure Node.js v14.x is installed
+2. Clone the repository:
+``` bash
+git clone https://github.com/21Kgold/holbertonschool-web_react.git
+cd holbertonschool-web_react/TypeScript/task_0
+```
+3. Install dependencies:
+``` bash
+npm install
+```
+### Available Scripts
+* Start Development Server:
+``` bash
+npm run start-dev
+```
+* Build for Production:
+``` bash
+npm run build
+```
+* Lint Code:
+``` bash
+npm run lint
+```
+### Execute JavaScript
+``` bash
+node ./dist/bundle.js 
+```
+
+## Author
+
+<div style="border-left: 3px solid #e1003c; padding-left: 10px;">
+  <p><strong>Claudia R. Pérez</strong></p>
+  <p>
+    <a href="https://github.com/21Kgold" style="color: #e1003c; text-decoration: none; padding: 0 2px;">GitHub Profile</a> | 
+    <a href="https://linkedin.com/in/claudia-tech" style="color: #e1003c; padding: 0 2px; text-decoration: none;">LinkedIn</a>
+  </p>
+</div>
