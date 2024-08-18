@@ -176,3 +176,53 @@ node ./dist/bundle.js
     <a href="https://linkedin.com/in/claudia-tech" style="color: #e1003c; padding: 0 2px; text-decoration: none;">LinkedIn</a>
   </p>
 </div>
+
+
+# TypeScript
+
+<div align="center">
+
+**Foundations of Computer Science and Full-Stack Web Development** program at
+[Holberton School](https://www.holbertonschool.com/)
+
+</div>
+
+
+<h1 align="center">TypeScript</h1>
+
+<p align="center">
+  <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at
+  <a href="https://www.holbertonschool.com/">Holberton School</a>
+</p>
+
+
+| |
+|:---:|
+| <h1 align="center">TypeScript</h1> |
+| <p align="center"><strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at <a href="https://www.holbertonschool.com/">Holberton School</a></p> |
+
+| |
+|:---:|
+| <h1 align="center" style="margin-bottom:0">TypeScript</h1> |
+| <p align="center"><strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at <a href="https://www.holbertonschool.com/">Holberton School</a></p> |
+
+![Red Border](path_to_red_border_image.png)
+
+# TypeScript
+
+**Foundations of Computer Science and Full-Stack Web Development** program at [Holberton School](https://www.holbertonschool.com/)
+
+
+$${\color{#e1003c}\rule{\textwidth}{1pt}}$$
+
+# TypeScript
+
+**Foundations of Computer Science and Full-Stack Web Development** program at [Holberton School](https://www.holbertonschool.com/)
+
+
+----------------------------
+# TypeScript
+
+**Foundations of Computer Science and Full-Stack Web Development** program at [Holberton School](https://www.holbertonschool.com/)
+----------------------------
+
