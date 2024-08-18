@@ -9,15 +9,8 @@
 
 <div align="center">
   <img src="./images/barra.png" alt="Red Bar" width="100%" height="20px">
-  <h1>TypeScript</h1>
-  <p><strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at <a href="https://www.holbertonschool.com/">Holberton School</a></p>
 </div>
-
-<div align="center">
-  <img src="./images/barra2.png" alt="Red Bar" width="100%" height="20px">
-  <h1>TypeScript</h1>
-  <p><strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at <a href="https://www.holbertonschool.com/">Holberton School</a></p>
-</div>
+<p></p>
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3.x-2f878c.svg)](https://www.typescriptlang.org/)
