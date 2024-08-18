@@ -7,9 +7,8 @@
   <a href="https://www.holbertonschool.com/">Holberton School</a>
 </p>
 
-<div align="center">
-  <img src="./images/barra.png" alt="Red Bar" width="100%" height="20px">
-</div>
+
+<p></p>
 <p></p>
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
