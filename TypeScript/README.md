@@ -4,7 +4,7 @@
 
 <p align="center">
   Coding projects developed as part of the
-  <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at&nbsp;<a href="https://www.holbertonschool.com/">
+  <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at  <a href="https://www.holbertonschool.com/">
     <img src="./images/holberton school cherry logo.png" alt="Holberton School" height="15">
   </a>
 </p>
@@ -157,7 +157,7 @@ cd holbertonschool-web_react/TypeScript/task_0
 ``` bash
 npm install
 ```
-## Available Scripts
+**Available Scripts**
 * Start Development Server:
 ``` bash
 npm run start-dev
@@ -170,7 +170,7 @@ npm run build
 ``` bash
 npm run lint
 ```
-### Execute JavaScript
+* Execute JavaScript
 ``` bash
 node ./dist/bundle.js 
 ```
@@ -179,7 +179,7 @@ node ./dist/bundle.js
 <p><strong>Claudia R. Pérez</strong></p>
 <p>
   <a href="https://github.com/21Kgold">
-    <img src="https://img.shields.io/badge/GitHub-4078c0?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+    <img src="https://img.shields.io/badge/GitHub_Profile-4078c0?style=flat-square&logo=github&logoColor=white" alt="GitHub">
   </a>
   <a href="https://linkedin.com/in/claudia-tech">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
