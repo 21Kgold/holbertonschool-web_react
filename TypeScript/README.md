@@ -15,7 +15,109 @@
 [![ESLint](https://img.shields.io/badge/ESLint-7.x-4B32C3.svg)](https://eslint.org/)
 </div>
 
+﻿![](./images/barra2.png)
 
+﻿![](./images/barra2.png)
+
+<h1 align="center">TypeScript</h1>
+
+<p align="center">
+  <strong>Foundations4 of Computer Science and Full-Stack Web Development</strong> program at
+  <a href="https://www.holbertonschool.com/">
+    <img src="./images/holberton school cherry logo.png" alt="Holberton School" height="15">
+  </a>
+</p>
+<div align="center">
+
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3.x-2f878c.svg)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-14.x-e1003c.svg)](https://nodejs.org/)
+[![Webpack](https://img.shields.io/badge/Webpack-4.x-8dd6f9.svg)](https://webpack.js.org/)
+[![ESLint](https://img.shields.io/badge/ESLint-7.x-4B32C3.svg)](https://eslint.org/)
+</div>
+
+﻿![](./images/barra2.png)
+
+﻿![](./images/barra2.png)
+
+<h1 align="center">TypeScript</h1>
+
+<p align="center">
+  <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at
+  <a href="https://www.holbertonschool.com/">
+    <img src="https://img.shields.io/badge/Holberton_School-E1003C?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEQSURBVHgBjZLNTcNAEIXfrJMoPSAkpwNTAaYCSAfugD0GThzgjOiADhAdhA5CB6YDcgPiEPn5vPYakYAEI2m0u/N2Zn47uw6n89cLdB7kDaMpTWkfjPbBLPl5TuaXFQBHGH3KuTBzjgejXzDTF+vcddeffwVEGBnCmOxq+r3t5Rgkwcixdzdg5AB7JKCg8YgNKqhBjdtlWHaWoMGMjuBZytK2c4YpXCnNtm+FXZjJfQoUQfMHJhmBBvA9tYXJPmM4w2iO0eJR2ZVX1fyVaWQPuU/n8QA2tR5Y0f2BDVv4HkY6dSe6JZA7HknJHWyZzPa8xwYNPqx1mXU88FgAB6OFLNXr5wJJXjPKF5+bzPD/Y1/bXPVi4/ZgNgAAAABJRU5ErkJggg==" alt="Holberton School">
+  </a>
+</p>
+<div align="center">
+
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3.x-2f878c.svg)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-14.x-e1003c.svg)](https://nodejs.org/)
+[![Webpack](https://img.shields.io/badge/Webpack-4.x-8dd6f9.svg)](https://webpack.js.org/)
+[![ESLint](https://img.shields.io/badge/ESLint-7.x-4B32C3.svg)](https://eslint.org/)
+</div>
+
+﻿![](./images/barra2.png)
+
+﻿![](./images/barra2.png)
+
+<h1 align="center">TypeScript</h1>
+
+<p align="center">
+  <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at
+  <a href="https://www.holbertonschool.com/">Holberton School</a>
+</p>
+<div align="center">
+
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3.x-2f878c.svg)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-14.x-e1003c.svg)](https://nodejs.org/)
+[![Webpack](https://img.shields.io/badge/Webpack-4.x-8dd6f9.svg)](https://webpack.js.org/)
+[![ESLint](https://img.shields.io/badge/ESLint-7.x-4B32C3.svg)](https://eslint.org/)
+</div>
+
+
+
+
+
+<p align="center">
+  <strong>Foundations1 of Computer Science and Full-Stack Web Development</strong> program at
+  <a href="https://www.holbertonschool.com/">
+    <img src="https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg" alt="Holberton School" height="20">
+  </a>
+</p>
+
+
+<p align="center">
+  <strong>Foundations2 of Computer Science and Full-Stack Web Development</strong> program at
+  <a href="https://www.holbertonschool.com/">
+    <img src="https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg" alt="Holberton School" height="20">
+  </a>
+</p>
+
+
+<p align="center">
+  <strong>Foundations3 of Computer Science and Full-Stack Web Development</strong> program at
+  <a href="https://www.holbertonschool.com/">
+    <img src="https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg" alt="Holberton School" height="30">
+  </a>
+</p>
+
+
+
+
+
+
+<p align="center">
+  <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at
+</p>
+<pre align="center">
+  <a href="https://www.holbertonschool.com/">
+    ╦ ╦┌─┐┬  ┌┐ ┌─┐┬─┐┌┬┐┌─┐┌┐┌  ╔═╗┌─┐┬ ┬┌─┐┌─┐┬  
+    ╠═╣│ ││  ├┴┐├┤ ├┬┘ │ │ ││││  ╚═╗│  ├─┤│ ││ ││  
+    ╩ ╩└─┘┴─┘└─┘└─┘┴└─ ┴ └─┘┘└┘  ╚═╝└─┘┴ ┴└─┘└─┘┴─┘
+  </a>
+</pre>
 
 
 ## Key Features
@@ -50,9 +152,17 @@ Developed a multi-file namespace structure with an accompanying HTML demo, neces
 ### [Task 5: Brand Types](./task_5/js/main.ts)
 Created unique, incompatible types for structurally similar data models using TypeScript's branded types feature.
 
+<strong>🔴 Project Screenshots</strong>
+
+<pre>
+╔═══════════════════╗
+║ Project Screenshots ║
+╚═══════════════════╝
+</pre>
+
 <details>
-  <summary style="display: inline-block; cursor: pointer; font-size: 1.2em; font-weight: bold; color: #e1003c; border-bottom: 2px solid #e1003c; padding-bottom: 5px; margin-bottom: 10px;">
-    Project Screenshots
+  <summary>
+    &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/Project_Screenshots-%23E1003C?style=for-the-badge" alt="Project Screenshots">
   </summary>
 
 ### Task 0 Typescript dynamic data display
@@ -181,3 +291,38 @@ node ./dist/bundle.js
     <a href="https://linkedin.com/in/claudia-tech" style="color: #e1003c; padding: 0 2px; text-decoration: none;">LinkedIn</a>
   </p>
 </div>
+
+﻿![](./images/barra2.png)
+
+
+![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=2F73BF)
+![Nest](https://img.shields.io/badge/-NestJs-black?style=for-the-badge&logo=nestjs&color=E0234D)
+![Mongoose](https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=127237)
+
+
+
+
+
+|        Name         |               Description               | Required | Default value |                   Limitations                    |
+|:-------------------:|:---------------------------------------:|:--------:|:-------------:|:------------------------------------------------:|
+|       `HOST`        | Host on which the API will be available |    ❌     |  `127.0.0.1`  |          If set, can't be empty string           |
+|       `PORT`        | Port on which the API will be available |    ❌     |    `8080`     | If set, must be a number between `0` and `65535` |
+|   `ENVIRONNEMENT`   |  Environment in which the API will run  |    ✅     |       ❌       |  Must be `development`, `production` or `test`   |
+|   `DATABASE_HOST`   |        MongoDB database host URL        |    ✅     |       ❌       |              Can't be empty string               |
+|   `DATABASE_PORT`   |          MongoDB database port          |    ❌     |  `undefined`  | If set, must be a number between `0` and `65535` |
+|   `DATABASE_NAME`   |          MongoDB database name          |    ✅     |       ❌       |              Can't be empty string               |
+| `DATABASE_USERNAME` |          MongoDB database user          |    ✅     |       ❌       |              Can't be empty string               |
+| `DATABASE_PASSWORD` |        MongoDB database password        |    ✅     |       ❌       |              Can't be empty string               |
+|    `CORS_ORIGIN`    |           CORS allowed origin           |    ❌     |      `*`      |          If set, can't be empty string           |
+
+*Follow us** at<br />
+[![Follow us on twitter](https://img.shields.io/twitter/follow/aregtech.svg?style=social)](https://twitter.com/intent/follow?screen_name=aregtech) 
+[![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-Aregtech-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/company/aregtech)
+[![Join the chat at https://gitter.im/areg-sdk/community](https://badges.gitter.im/areg-sdk/community.svg)](https://gitter.im/areg-sdk/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+---
+
+
+>**NOTE:**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Optional request headers will **not** be sent to the server engine.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Optional response headers will **not** be sent to clients.
