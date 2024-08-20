@@ -20,11 +20,11 @@
 ﻿![](./images/barra2.png)
 
 ## Key Features
-* DOM manipulation and dynamic content rendering with type-safe TypeScript
+* Type-safe DOM manipulation with TypeScript for dynamic rendering
 * Bundling of TypeScript projects with webpack
 * Style enforcement tailored for TypeScript
 * Advanced TypeScript Patterns
-* Strong typing
+* Strictness typing configuration
 
 ## Coding projects
 Each task was completed within specific constraints regarding allowed libraries, programming languages, development tools and using the provided configuration files.<br>
@@ -157,7 +157,7 @@ cd holbertonschool-web_react/TypeScript/task_0
 ``` bash
 npm install
 ```
-**Available Scripts**
+## Usage
 * Start Development Server:
 ``` bash
 npm run start-dev
