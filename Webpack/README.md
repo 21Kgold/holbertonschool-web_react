@@ -1,94 +1,143 @@
-# Webpack
-Webpack is a static module bundler for JavaScript applications. Its main purpose is to bundle JavaScript files for usage in a browser, Webpack goes through your package and creates what it calls a dependency graph which consists of various modules which your webapp would require to function as expected. Then, depending on this graph, it creates a new package which consists of the very bare minimum number of files required, often just a single bundle.js file which can be plugged into the html file easily and used for the application.
+![](./images/barra2.png)
 
-Webpack has a rich ecosystem of modules called "plugins", which are libraries that can modify and enhance the webpack build process. We'll explore a handful of helpful plugins as we continue to improve our webpack config throughout the project.
+<h1 align="center">Webpack</h1>
 
-## Description
-* How to setup Webpack for a basic project
-* Entry points, output, and loaders
-* How to add plugins
-* How to split your code into chunks
-* How to setup a dev server
-
-### [0. Basic setup](./task_0/src/index.js)
-
-* Install webpack and webpack-cli as developer dependencies within a task_0 folder. You will use CLI to call webpack from the command line.
-* Install jQuery as a regular dependency using npm.
-```
-/task_0$ npm init -y
-/task_0$ npm install --save-dev webpack webpack-cli
-/task_0$ npm install jquery
-```
-* Verify the installation by checking your package.json file. You should see jQuery listed under dependencies and webpack and webpack-cli are listed under the devDependencies.
-* Create a src directory with a index.js in it.
-* The file should import jquery and add the given paragraphs to the page body.
-* Create a dist/index.html. Import your main.js in the body.
-```
-/task_0$ $ npx webpack --mode development
-asset main.js 320 KiB [emitted] (name: main)
-runtime modules 937 bytes 4 modules
-cacheable modules 279 KiB
-  ./src/index.js 244 bytes [built] [code generated]
-  ./node_modules/jquery/dist/jquery.js 279 KiB [built] [code generated]
-webpack 5.89.0 compiled successfully in 437 ms
-```
 <p align="center">
-  <img src="./images/task_0.png" alt="Image Description" width="60%" />
+  Coding projects developed as part of the 
+  <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at  
+  <a href="https://www.holbertonschool.com/">
+    <img src="./images/holberton school cherry logo.png" alt="Holberton School" height="15">
+  </a>
+</p>
+<div align="center">
+
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Node.js](https://img.shields.io/badge/Node.js-14.x-e1003c.svg)](https://nodejs.org/)
+[![Webpack](https://img.shields.io/badge/Webpack-4.x-8dd6f9.svg)](https://webpack.js.org/)
+[![TypeScript](https://img.shields.io/badge/jQuery-3.x-2f878c.svg)](https://api.jquery.com/)
+[![ESLint](https://img.shields.io/badge/Lodash-4.x-8e89af.svg)](https://lodash.com/)
+</div>
+
+﻿![](./images/barra2.png)
+
+## Key Features
+* Customized setup for optimal code bundling and asset management
+* Webpack Dev Server Integration
+* Code Splitting Techniques
+
+## Coding projects
+Each task was completed within specific constraints regarding allowed libraries, programming languages and development tools.<br>
+
+### [Task 0: Basic Webpack Setup](./task_0) 
+Execute Webpack from the command line without any configuration.
+
+### [Task 1: Custom Webpack Setup](./task_1) 
+Developed a custom Webpack configuration file to control entry and output points and implemented npm scripts for streamlined Webpack execution
+
+### [Task 2: Bundle non-JavaScript files](./task_2)
+Enhanced Webpack configuration to handle CSS files and various assets (e.g., images) and implemented loaders to properly process and bundle non-JavaScript files
+
+### [Task 3: Code split into chunks](./task_3)
+Integrated Webpack Dev Server for improved development experience and implemented HTML generation plugin to automate HTML file creation.
+Utilized code splitting techniques to create separate bundles for different webpage sections (header, body, footer).
+> [!NOTE]
+> **webpack-dev-server Version Constraint**
+> 
+> This project uses `webpack-dev-server` version `^4.15.1` with Node.js 14.x. Newer versions of `webpack-dev-server` (v5.x and above) require Node.js 18.x or higher. Upgrading to Node 18.x is not possible due to incompatibility with the current Ubuntu version.
+
+<details><summary><b>Display Task Results</b></summary>
+
+### Task 0 Webpack setup
+<p align="center">
+  <img src="./images/task_0.png" alt="Image Description" width="800" />
+</p>
+<p align="center"><em>Development Server render of Task 0</em></p>
+
+### Task 1 Custom Webpack setup
+<p align="center">
+  <img src="./images/task_1a.png" alt="Image Description" width="800" />
+</p>
+<p align="center"><em>Development Server render of Task 1</em></p>
+<p align="center">
+  <img src="./images/task_1b.png" alt="Image Description" width="800" />
+</p>
+<p align="center"><em>Development Server render of Task 1</em></p>
+
+### Task 2 Adding CSS to a webpack bundle
+<p align="center">
+  <img src="./images/task_2.png" alt="Image Description" width="800" />
+</p>
+<p align="center"><em>Development Server render of Task 3</em></p>
+
+### Task 3 Webpack developer server API and code split into chunks
+<p align="center">
+  <img src="./images/task_3.png" alt="Image Description" width="800" />
+</p>
+<p align="center"><em>Development Server render of Task 3</em></p>
+
+<p></p>
+<p align="center">
+  <img src="./images/task_3a.png" alt="Image Description" width="800" />
+</p>
+<p align="center"><em>Code split into chunks</em></p>
+<p align="center">
+  <img src="./images/task_3b.png" alt="Image Description" width="800" />
 </p>
 
-### [1. Learning how to use Webpack with a config file](./task_1/js/dashboard_main.js)
 
-* Install webpack as dev dependency and jquery and Lodash as dependencies.
+</details>
+
+## Project Setup
+**Development Environment**
+* Editor: Visual Studio Code
+* Node 14.21.3 and npm for package management
+* Operating System: Ubuntu 18.04.6 LTS<br>
+
+**Technologies**
+- JavaScript ES6+
+- jQuery 3.x for DOM manipulation
+- Webpack 5.x for module boundle
+- Lodash for functional utilities<br>
+
+**Getting Started**
+1. Ensure Node.js v14.x is installed
+2. Clone the repository:
+``` bash
+git clone https://github.com/21Kgold/holbertonschool-web_react.git
+cd holbertonschool-web_react/Webpack/task_0
 ```
-/task_1$ npm init -y
-/task_1$ npm install --save-dev webpack webpack-cli 
-/task_1$ npm install jquery lodash
+1. Install dependencies:
+``` bash
+npm install
 ```
-* Modify your package.json to add a build script that runs webpack. Then you can run `npm run build` to bundle your JavaScript files.
-* Create dashboard_main.js inside a js folder. With jQuery add the given paragraphs, a button and a click counter paragraph. Also create a updateCounter function to update the click counter paragraph.
-* Bind the debounce function in Lodash to the click event on the button you created previously (The number of milliseconds to delay invocation should be 500).
-* When running Webpack, a javaScript file named bundle.js should be generated in a folder named public.
-* Create a public/index.html. Import bundle.js in the body.
-* Set Webpack config mode to production.
+## Usage
+* Build for Production (Task 0 only):
+``` bash
+npx webpack
 ```
-/task_1$ npm run build
+* Build for Production:
+``` bash
+npm run build
 ```
-<p align="center">
-  <img src="./images/task_1a.png" alt="Image Description" width="50%" />
-  <img src="./images/task_1b.png" alt="Image Description" width="50%" />
+* Start Development Server (http://127.0.0.1:8080):
+``` bash
+npx http-server
+```
+* Start Development Server and open default browser (Task 3 only)
+``` bash
+npm run start-dev
+```
+
+## Author
+<p><strong>Claudia R. Pérez</strong></p>
+<p>
+  <a href="https://github.com/21Kgold">
+    <img src="https://img.shields.io/badge/GitHub_Profile-24292e?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://linkedin.com/in/claudia-tech">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
 </p>
 
-### [2. Adding CSS & Images](./task_2/js/dashboard_main.js)
+﻿![](./images/barra2.png)
 
-* Reuse the code from task_1
-* Configure the system to integrate CSS into the bundle and to enable the addition of images within the CSS. Don't forget to modify webpack.config.js.
-* In a file named main.css change the position of the counter next to the button. Add a logo at the top-right of the document. 
-```
-/task_2$ npm install --save-dev css-loader style-loader
-/task_1$ npm run build
-```
-<p align="center">
-  <img src="./images/task_2.png" alt="Image Description" width="60%" />
-</p>
-
-file-loader image-webpack-loader were installed at the end for checker, but it doesn't work.
-
-### [3. Dev servers, modules, and tree shaking](./task_3/modules)
-* Reuse the code from task_2.
-* Setup a development server running on the port 8564 and its mode to development.
-* Set the configuration to start the server and open the browser with npm run start-dev.
-* Divide the main bundle into three modules and modify the webpack configuration to support three different entry points. Each entry point should generate a filename with the following format name_of_the_file.bundle.js.
-* Add a plugin to Webpack to automatically create an index.html HTML file.
-
-Improve development speed
-* Modify the webpack config to support inline source mapping.
-* Check that the console.log in the header.js now takes you to your javascript file instead of the main bundle.
-* Add a plugin to Webpack to clean your build folder on each build.
-Improve bundles size:
-* You can see that the current modules generated with npm run build are quite large. They all contain jQuery and/or Lodash. Modify the Webpack configuration to split the modules in chunks.
-```
-/task_3$ npm install --save-dev html-webpack-plugin clean-webpack-plugin webpack-dev-server
-```
-<p align="center">
-  <img src="./images/task_3.png" alt="Image Description" width="60%" />
-</p>
