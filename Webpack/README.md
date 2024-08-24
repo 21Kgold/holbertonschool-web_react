@@ -141,3 +141,12 @@ npm run start-dev
 
 ﻿![](./images/barra2.png)
 
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
