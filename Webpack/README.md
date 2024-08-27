@@ -49,23 +49,23 @@ Utilized code splitting techniques to create separate bundles for different webp
 
 ### Task 0 Webpack setup
 <p align="center">
-  <img src="./images/task_0.png" alt="Image Description" width="800" />
+  <img src="./images/task_0.png" alt="Image Description" width="500" />
 </p>
 <p align="center"><em>Development Server render of Task 0</em></p>
 
 ### Task 1 Custom Webpack setup
 <p align="center">
-  <img src="./images/task_1a.png" alt="Image Description" width="800" />
+  <img src="./images/task_1a.png" alt="Image Description" width="500" />
 </p>
 <p align="center"><em>Development Server render of Task 1</em></p>
 <p align="center">
-  <img src="./images/task_1b.png" alt="Image Description" width="800" />
+  <img src="./images/task_1b.png" alt="Image Description" width="500" />
 </p>
 <p align="center"><em>Development Server render of Task 1</em></p>
 
 ### Task 2 Adding CSS to a webpack bundle
 <p align="center">
-  <img src="./images/task_2.png" alt="Image Description" width="800" />
+  <img src="./images/task_2.png" alt="Image Description" width="500" />
 </p>
 <p align="center"><em>Development Server render of Task 3</em></p>
 
