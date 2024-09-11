@@ -1,4 +1,9 @@
+:root {
+    --cherry: #e1003c;
+    --main_font: clamp(14px, calc(8px + 0.9vh), 18px);
+}
+
 .Notifications {
-    border: 2px solid red;
-    padding: 5px;
+    border: 2px solid var(--cherry);
+    padding: 3px;
 }

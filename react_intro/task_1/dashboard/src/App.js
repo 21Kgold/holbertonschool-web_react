@@ -1,7 +1,6 @@
 import logo from './logo_h.jpg';
 import './App.css';
-import { getFullYear } from './utils';
-import { getFooterCopy } from './utils';
+import { getFullYear, getFooterCopy } from './utils';
 
 function App() {
   return (
@@ -26,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export {App};
