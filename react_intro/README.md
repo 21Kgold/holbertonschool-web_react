@@ -32,7 +32,8 @@ Each task was completed within specific constraints regarding allowed libraries,
 ### [Task 0: Create React App](./task_0/dashboard/)
 Set up a complete React development environment using Create React App (CRA) as boilerplate.<br>
 Created a single-page React application with a modified and styled App component, incorporating responsive design principles through flexbox, clamp(), and viewport units.
-> [!NOTE] Create React App (CRA) Deprecated
+> [!NOTE] 
+> **Create React App (CRA) Deprecated**
 >
 > The React team has removed CRA from the official documentation, indicating it is no longer the recommended method for setting up new React projects.
 
@@ -43,7 +44,8 @@ Implemented basic static Notifications and sign-in components.
 ### [Task 3: Unit Testing](./task_3/dashboard/)
 Developed comprehensive unit tests for each component.
 
-> [!NOTE] Enzyme it is no longer actively maintained
+> [!NOTE] 
+> **Enzyme it is no longer actively maintained**
 > 
 > The React core team discourages the use of Enzyme and recommends switching to React Testing Library.
 
