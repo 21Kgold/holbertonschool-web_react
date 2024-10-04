@@ -1,37 +1,32 @@
-import React from 'react';
 import logo from './logo_h.jpg';
 import './App.css';
-import { getFullYear } from './utils';
-import { getFooterCopy } from './utils';
+import { getFullYear, getFooterCopy } from './utils';
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>School dashboard</h1>
-        </div>
-        <hr></hr>
-      </header>
-        <div className="App-body">
-          <p>Login to access the full dashboard</p>
-          <form>
-            <label>Email:
-              <input type="email"/>
-            </label>
-            <label>Password:
-              <input type="password"/>
-            </label>
-            <button>OK</button>
-          </form>
-        </div>
-        <hr></hr>
-      <footer>
-        <div className="App-footer">
-          <p>Copyright {getFullYear()} - {getFooterCopy(true)}</p>
-        </div>
-      </footer>
+    <div className='App'>
+      <div className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>School dashboard</h1>
+      </div>
+      <hr></hr>
+      <div className='App-body'>
+        <p>Login to access the full dashboard</p>
+        <form action="/submit" method="post">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" required/>
+  
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required/>
+
+          <button>OK</button>
+  
+        </form>
+      </div>
+      <hr></hr>
+      <div className='App-footer'>
+        <p>Copyright {getFullYear()} - {getFooterCopy(true)}</p>
+      </div>
     </div>
   );
 }

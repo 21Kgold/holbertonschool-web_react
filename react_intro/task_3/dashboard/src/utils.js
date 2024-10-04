@@ -1,15 +1,12 @@
-export function getFullYear() {
-    return new Date().getFullYear();
+const getFullYear = () => new Date().getFullYear();
+
+const getFooterCopy = (isIndex) => {
+    if (isIndex === true) return 'Holberton School';
+    else return 'Holberton School main dashboard';
 }
 
-export function getFooterCopy(isIndex) {
-    if (isIndex === true) {
-        return 'Holberton School';
-    } else {
-        return 'Holberton School main dashboard';
-    }
-}
+const getLatestNotification = () => {
+    return `<strong>Urgent requirement</strong> - complete by EOD`;
+};
 
-export function getLatestNotification() {
-    return '<strong>Urgent requirement</strong> - complete by EOD';
-}
+export {getFullYear, getFooterCopy, getLatestNotification};
