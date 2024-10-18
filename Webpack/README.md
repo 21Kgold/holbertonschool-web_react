@@ -113,12 +113,14 @@ npm install
 ```
 ## Usage
 <div align="center">
+
 | Description                                                     | Command                |
 |:----------------------------------------------------------------|:----------------------:|
 | Build for Production (Task 0 only)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| `npx webpack`          |
 | Build for Production&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              | `npm run build`        |
 | Start Development Server (http://127.0.0.1:8080)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | `npx http-server`     |
 | Start Development Server and open default browser (Task 3 only)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | `npm run start-dev`   |
+
 </div>
 
 * Build for Production (Task 0 only):
