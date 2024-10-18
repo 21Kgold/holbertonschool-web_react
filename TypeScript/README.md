@@ -160,22 +160,15 @@ cd holbertonschool-web_react/TypeScript/task_0
 npm install
 ```
 ## Usage
-* Start Development Server:
-``` bash
-npm run start-dev
-```
-* Build for Production:
-``` bash
-npm run build
-```
-* Lint Code:
-``` bash
-npm run lint
-```
-* Execute JavaScript
-``` bash
-node ./dist/bundle.js 
-```
+
+<div align="center">
+| Description | Command |
+|-------------|---------|
+| Start Development Server | `npm run start-dev` |
+| Build for Production | `npm run build` |
+| Lint Code | `npm run lint` |
+| Execute JavaScript | `node ./dist/bundle.js` |
+</div>
 
 ## Author
 <p><strong>Claudia R. Pérez</strong></p>
@@ -189,4 +182,3 @@ node ./dist/bundle.js
 </p>
 
 ﻿![](./images/barra2.png)
-
