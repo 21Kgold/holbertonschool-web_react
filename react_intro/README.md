@@ -118,18 +118,16 @@ cd holbertonschool-web_react/react_intro/task_0/dashboard
 npm install
 ```
 ## Usage
-* Build for Production:
-``` bash
-npm run build
-```
-* Start Development Server:
-``` bash
-npm start
-```
-* Test:
-``` bash
-npm test
-```
+
+<div align="center">
+
+| Description | Command |
+|-------------|---------|
+| Build for Production | `npm run build` |
+| Start Development Server | `npm start` |
+| Test | `npm test` |
+
+</div>
 
 ## Author
 <p><strong>Claudia R. Pérez</strong></p>
