@@ -112,6 +112,14 @@ cd holbertonschool-web_react/Webpack/task_0
 npm install
 ```
 ## Usage
+| Description                                                     | Command                |
+|:----------------------------------------------------------------|:----------------------:|
+| Build for Production (Task 0 only)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| `npx webpack`          |
+| Build for Production&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              | `npm run build`        |
+| Start Development Server (http://127.0.0.1:8080)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | `npx http-server`     |
+| Start Development Server and open default browser (Task 3 only)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | `npm run start-dev`   |
+
+
 * Build for Production (Task 0 only):
 ``` bash
 npx webpack
@@ -162,3 +170,10 @@ npm run start-dev	Start Development Server and open default browser (Task 3 only
 | Start Development Server (http://127.0.0.1:8080) | `npx http-server` |
 | Start Development Server and open default browser (Task 3 only) | `npm run start-dev` |
 
+
+| Description                                                     | Command                |
+|:----------------------------------------------------------------|:----------------------:|
+| Build for Production (Task 0 only)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| `npx webpack`          |
+| Build for Production&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              | `npm run build`        |
+| Start Development Server (http://127.0.0.1:8080)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | `npx http-server`     |
+| Start Development Server and open default browser (Task 3 only)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | `npm run start-dev`   |
