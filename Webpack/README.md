@@ -4,11 +4,12 @@
 
 <p align="center">
   Coding projects developed as part of the 
-  <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at  
+  <strong>Full-Stack Web Development</strong> specialization program at  
   <a href="https://www.holbertonschool.com/">
     <img src="./images/holberton school cherry logo.png" alt="Holberton School" height="15">
   </a>
 </p>
+
 <div align="center">
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-1e145f.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
