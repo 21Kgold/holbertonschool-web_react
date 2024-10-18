@@ -162,12 +162,14 @@ npm install
 ## Usage
 
 <div align="center">
+
 | Description | Command |
 |-------------|---------|
 | Start Development Server | `npm run start-dev` |
 | Build for Production | `npm run build` |
 | Lint Code | `npm run lint` |
 | Execute JavaScript | `node ./dist/bundle.js` |
+
 </div>
 
 ## Author
