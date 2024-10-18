@@ -176,7 +176,7 @@ npm install
 <p><strong>Claudia R. Pérez</strong></p>
 <p>
   <a href="https://github.com/21Kgold">
-    <img src="https://img.shields.io/badge/GitHub_Profile-4078c0?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+    <img src="https://img.shields.io/badge/GitHub_Profile-24292e?style=flat-square&logo=github&logoColor=white" alt="GitHub">
   </a>
   <a href="https://linkedin.com/in/claudia-tech">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
