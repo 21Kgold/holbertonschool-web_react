@@ -2,13 +2,13 @@
 
 <h1 align="center">React introduction</h1>
 
-<p align="center">
+<h3 align="center">
   Coding projects developed as part of the 
-  <strong>Foundations of Computer Science and Full-Stack Web Development</strong> program at  
+  <strong>Full-Stack Web Development</strong> specialization program at  
   <a href="https://www.holbertonschool.com/">
     <img src="./images/holberton school cherry logo.png" alt="Holberton School" height="15">
   </a>
-</p>
+</h3>
 <div align="center">
 
 [![React](https://img.shields.io/badge/React-16.9-1e145f.svg)](https://react.dev)
@@ -23,6 +23,8 @@
 
 ## Key Features
 * React development environment setup using both Create React App (CRA) boilerplate and manual configuration with webpack and babel.
+* React components.
+* Markup with JSX.
 * Integration of React Developer Tools for efficient debugging.
 * Shallow rendering for unit testing React components.
 
@@ -38,13 +40,13 @@ Created a single-page React application with a modified and styled App component
 > The React team has removed CRA from the official documentation, indicating it is no longer the recommended method for setting up new React projects.
 
 ### [Task 1: Embedding Utility Functions](./task_1/dashboard/)
-Integrated utility functions for date display and homepage detection (isIndex) to customize footer content dynamically.
+Integrated utility functions for date display and homepage detection (isIndex) to customize footer content dynamically. Component's structure was examined using React Developer Tools.
 ### [Task 2: Additional components](./task_2/dashboard/)
 Implemented basic static Notifications and sign-in components.
 ### [Task 3: Unit Testing](./task_3/dashboard/)
 Developed comprehensive unit tests for each component.
 
-> [!NOTE] 
+> [!NOTE]
 > **Enzyme it is no longer actively maintained**
 > 
 > The React core team discourages the use of Enzyme and recommends switching to React Testing Library.
