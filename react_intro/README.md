@@ -2,13 +2,13 @@
 
 <h1 align="center">React introduction</h1>
 
-<h3 align="center">
+<p align="center">
   Coding projects developed as part of the 
   <strong>Full-Stack Web Development</strong> specialization program at  
   <a href="https://www.holbertonschool.com/">
     <img src="./images/holberton school cherry logo.png" alt="Holberton School" height="15">
   </a>
-</h3>
+</p>
 <div align="center">
 
 [![React](https://img.shields.io/badge/React-16.9-1e145f.svg)](https://react.dev)
