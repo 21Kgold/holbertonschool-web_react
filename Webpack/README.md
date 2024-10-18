@@ -113,12 +113,27 @@ npm install
 ```
 ## Usage
 
+<div align="center">
+
+| Description | Command |
+|-------------|---------|
+| Build for Production (Task 0 only) | `npx webpack` |
+| Build for Production | `npm run build` |
+| Start Development Server (http://127.0.0.1:8080) | `npx http-server` |
+| Start Development Server and open default browser (Task 3 only) | `npm run start-dev` |
+
+</div>
+
+<div align="center">
+
 | Description                                                     | Command                |
 |:----------------------------------------------------------------|:----------------------:|
 | Build for Production (Task 0 only)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| `npx webpack`          |
 | Build for Production&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              | `npm run build`        |
 | Start Development Server (http://127.0.0.1:8080)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | `npx http-server`     |
 | Start Development Server and open default browser (Task 3 only)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | `npm run start-dev`   |
+
+</div>
 
 ## Author
 <p><strong>Claudia R. Pérez</strong></p>
@@ -132,3 +147,31 @@ npm install
 </p>
 
 ﻿![](./images/barra2.png)
+
+Command	Description
+npx webpack	Build for Production (Task 0 only)
+npm run build	Build for Production
+npx http-server	Start Development Server (http://127.0.0.1:8080)
+npm run start-dev	Start Development Server and open default browser (Task 3 only)
+
+| Command | Description |
+|---------|-------------|
+| `npx webpack` | Build for Production (Task 0 only) |
+| `npm run build` | Build for Production |
+| `npx http-server` | Start Development Server (http://127.0.0.1:8080) |
+| `npm run start-dev` | Start Development Server and open default browser (Task 3 only) |
+
+| Description | Command |
+|-------------|---------|
+| Build for Production (Task 0 only) | `npx webpack` |
+| Build for Production | `npm run build` |
+| Start Development Server (http://127.0.0.1:8080) | `npx http-server` |
+| Start Development Server and open default browser (Task 3 only) | `npm run start-dev` |
+
+
+| Description                                                     | Command                |
+|:----------------------------------------------------------------|:----------------------:|
+| Build for Production (Task 0 only)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| `npx webpack`          |
+| Build for Production&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              | `npm run build`        |
+| Start Development Server (http://127.0.0.1:8080)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | `npx http-server`     |
+| Start Development Server and open default browser (Task 3 only)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | `npm run start-dev`   |
