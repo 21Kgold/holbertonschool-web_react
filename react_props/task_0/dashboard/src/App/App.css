@@ -1,0 +1,11 @@
+:root {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    --cherry: #e1003c;
+    font-family: Arial, Helvetica, sans-serif;
+    --middle-font: calc(6px + 1vh);
+    --main-font: clamp(8px, var(--middle-font), 20px);
+    font-size: var(--main-font);
+    font-weight: 500;
+}

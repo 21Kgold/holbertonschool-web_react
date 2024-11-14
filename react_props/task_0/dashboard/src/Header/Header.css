@@ -1,19 +1,19 @@
-  .App-logo {
-    height: 23vh;
-    pointer-events: none;
-  }
-  
-  .App-header {
-    min-height: 24vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: calc(8px + 0.9vh);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .App-header h1 {
-    color: #e0003c;
-  }
+.App-logo {
+  max-height: 20vmin;
+  width: auto;
+  max-width: 100%;
+}
+
+.App-header {
+  min-height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--cherry);
+}
+
+.App-header h1 {
+  margin-left: 20px;
+  font-size: 3vmin;
+}

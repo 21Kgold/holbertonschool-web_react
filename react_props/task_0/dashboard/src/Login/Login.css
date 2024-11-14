@@ -1,27 +1,20 @@
-  hr {
-    color: #e0003c;
-  }
-  .App-body {
-    min-height: 35vh;
-    margin-top: 60px;
-    margin-left: 60px;
-    font-size: calc(8px + 1vmin);
-    font-weight: 500;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+hr {
+  border-top: 2.5px solid var(--cherry);
+}
+
+.App-body {
+  min-height: 45vh;
+  margin: clamp(20px, calc(10px + 4vmin), 60px);
+  font-size: var(--main-font);
+  font-weight: 500;
+  text-align: left;
+}
   
-  hr {
-    border: none;
-    height: 2.5px;
-    background-color: #e0003c;
-  }
-  
-  .App-body label {
-    padding-right: 20px;
-  }
-  
-  .App-body button {
-    background-color: transparent;
-    border: 0.5px solid gray;
-  }
+form {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
