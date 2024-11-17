@@ -1,0 +1,20 @@
+hr {
+  border-top: 2.5px solid var(--cherry);
+}
+
+.App-body {
+  min-height: 45vh;
+  margin: clamp(20px, calc(10px + 4vmin), 60px);
+  font-size: var(--main-font);
+  font-weight: 500;
+  text-align: left;
+}
+  
+form {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}

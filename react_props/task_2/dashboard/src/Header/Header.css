@@ -1,0 +1,19 @@
+.App-logo {
+  max-height: 20vmin;
+  width: auto;
+  max-width: 100%;
+}
+
+.App-header {
+  min-height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--cherry);
+}
+
+.App-header h1 {
+  margin-left: 20px;
+  font-size: 3vmin;
+}
